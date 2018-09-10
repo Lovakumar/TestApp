@@ -1,1 +1,1 @@
-Write-Host "Hello world - 7"
+Write-Host "Hello world - trying out azure pipelines app"
