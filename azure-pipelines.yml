@@ -11,7 +11,12 @@ resources:
       type: pranpati.circleci.artifact
       endpoint: CircleCI
       project: github/PranaySPatil/circleci-demo-python-django
-      version: 3
+
+    - pipeline: mygithubreleasesartifact
+      type: ms-vscs-rm.vss-services-github-releases.github-releases-release-artifact-type
+      endpoint: GitHubRelease
+      definition: Lovakumar/TestApp
+      version: 14249929
 
 steps:
  
@@ -24,3 +29,7 @@ steps:
   artifacts:
     - name: circleci-artifact
       pattern: '**/**Author**'
+
+- downloadArtifacts: mygithubreleasesartifact
+  artifacts:
+    - name: mygithubreleasesartifact
