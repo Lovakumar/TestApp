@@ -22,7 +22,8 @@ steps:
     buildType: 'specific'
     project: '0b04962d-8e4c-4bf1-a246-22b870eb11a2'
     pipeline: '2982'
-    buildVersionToDownload: 'latest'
+    buildVersionToDownload: 'specific'
+    buildId: 532514
     artifactName: 'SpecialArtifact'
     specificBuildWithTriggering: true    
     downloadType: 'single'
