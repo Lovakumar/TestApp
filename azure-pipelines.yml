@@ -11,6 +11,7 @@ pool:
   
 variables:
   System.Debug: true
+  VSTS_AGENT_HTTPTRACE=true
 
 steps:
 - script: echo Hello, world!
