@@ -1,1 +1,1 @@
-Write-Host "Hello world - trying out azure pipelines app 2"
+Write-Host "Hello world - trying out azure pipelines app in devfabric"
